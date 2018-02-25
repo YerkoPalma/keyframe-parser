@@ -1,0 +1,28 @@
+{
+  "name": "keyframe-parser",
+  "version": "1.0.0",
+  "description": "Parse a valid css keyframe string into a Keyframe Object for the Web Animations API",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --verbose | snazzy && node test.js | tap-summary"
+  },
+  "keywords": [
+    "animation",
+    "API",
+    "keyframe",
+    "parser",
+    "web animation"
+  ],
+  "repository": "YerkoPalma/keyframe-parser",
+  "author": "Yerko Palma",
+  "license": "MIT",
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^11.0.0",
+    "tap-summary": "^4.0.0",
+    "tape": "^4.9.0"
+  },
+  "dependencies": {
+    "xtend": "^4.0.1"
+  }
+}
