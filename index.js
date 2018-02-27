@@ -9,7 +9,7 @@ function Keyframe (strings) {
   }
   var keyframes = []
   var regexMainBlock = /\s*@keyframes\s*(\w*)\s*{(.*)}/
-  var regexBlocks = /[\w+,\s|\d+%,\s]*\s*{\s*([\w\-\d.:\s(),;]*)\s*}/g
+  var regexBlocks = /[\w+,\s|\d+%,\s]*\s*{\s*([\w\-\d.:\s(),;%]*)\s*}/g
   var regexBlockKey = /([\w\s%,])*{/
 
   result = result.trim().replace(/\s+/g, ' ')
