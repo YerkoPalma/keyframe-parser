@@ -1,6 +1,6 @@
 {
   "name": "keyframe-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse a valid css keyframe string into a Keyframe Object for the Web Animations API",
   "main": "index.js",
   "scripts": {
